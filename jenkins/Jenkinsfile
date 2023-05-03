@@ -16,10 +16,5 @@ pipeline {
                 }
             }
         }
-        stage('Is this complete?') {
-            steps {
-                echo 'Job complete! Rock on, brother!'
-            }
-        }
     }
 }
