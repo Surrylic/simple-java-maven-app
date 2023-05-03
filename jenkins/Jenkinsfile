@@ -16,7 +16,7 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
+        stage('Is this complete?') {
             steps {
                 echo 'Job complete! Rock on, brother!'
             }
